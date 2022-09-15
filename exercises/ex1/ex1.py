@@ -1,5 +1,5 @@
 '''
-This code can calcuate sum of integers between amin and amax
+This code can calcuate the sum of integers between amin and amax
 Author: Lin Yen-Hsing (NTHU) 2022.09.15
 '''
 
