@@ -7,4 +7,4 @@ Here I introduced the ```argv``` function that can directly take the arguments f
 
 I also encourage you to have a look at [pylint](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/358201/), which is a python package that can help you check and optimize the style of your code.
 
-
+Please ignore ```ex1_LSC.py```
