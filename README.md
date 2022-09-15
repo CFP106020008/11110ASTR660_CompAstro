@@ -1,5 +1,5 @@
 # 110-1 ASTR660 Computational Astrophysics
-Instuctor: Karen Yang
+Instructor: Karen Yang (NTHU)
 
-T.A.: Yen-Hsing Lin, Peiya Wang
+T.A.: Yen-Hsing Lin (NTHU), Peiya Wang (NTHU)
 
