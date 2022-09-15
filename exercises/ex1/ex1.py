@@ -1,6 +1,13 @@
 '''
 This code can calcuate the sum of integers between amin and amax
 Author: Lin Yen-Hsing (NTHU) 2022.09.15
+
+Run this code with:
+$ python ex1.py amin amax
+e.g.
+$ python ex1.py 1 100 
+then you will get:
+Summation from 1 to 100 = 5050
 '''
 
 from sys import argv
