@@ -1,21 +1,21 @@
 #!/bin/bash
 
 echo -e "Path: "
-read word
+read path
 
-let count_f=0
-let count_d=0
+let num_f=0
+let num_d=0
 
-for ff in $(ls $word); do
-    if [ -f $word/$ff ]; then 
+for ff in $(ls $path); do
+    if [ -f $path/$ff ]; then 
         echo "$ff is a file"
-        ((count_f++))
-    else [ -d $word/$ff ]; 
+        ((num_f++))
+    else [ -d $path/$ff ]; 
         echo "$ff is a dir"
-        ((count_d++))
+        ((num_d++))
     fi
 done
 
-echo "There are $count_f files and $count_d directories."
+echo "There are $num_f files and $num_d directories."
 
 
