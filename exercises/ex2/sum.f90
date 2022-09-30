@@ -14,6 +14,6 @@ program summation
     
     result = sum(series)
     
-    print *, result
+    print *, 'Summing from ', amin, 'to ', amax, 'is ', result
 
 end program summation
