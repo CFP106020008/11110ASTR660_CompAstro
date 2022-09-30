@@ -2,7 +2,7 @@ program summation
     
     implicit none
     integer :: i, N
-    integer, parameter :: amin = 0
+    integer, parameter :: amin = 1
     integer, parameter :: amax = 100
     real :: result
     double precision, dimension(amax-amin+1) :: series
