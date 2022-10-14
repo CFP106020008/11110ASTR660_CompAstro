@@ -31,13 +31,13 @@ module solver
         
         fa = func(a)
         fb = func(b)
-        xs = (a+b)/2
+        xs = (a+b)/2.
         fx = func(xs)
 
         if ((fa*fx) < 0) then
-            b = (a+b)/2
+            b = xs
         else
-            a = (a+b)/2
+            a = xs
         end if
         err = abs(fx)
 
