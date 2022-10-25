@@ -12,8 +12,8 @@ If you calculate those errors by brute force, it should looks like this.
 All curves should follow the same slope of $N^{-1.5}$. But why?
 This is because $\sqrt{1-x^2}$ is NOT a well-behaved function since $f'\rightarrow \infity$ as $x\rightarrow 1$ or $x\rightarrow -1$.
 So if we instead use a well-behaved function, such as $\sqrt{2-x^2}$. You will get a good result.
-<img src="drawing.jpg" alt="drawing" width="50%"/>
-<img src="drawing.jpg" alt="drawing" width="50%"/>
+<img src="https://github.com/CFP106020008/11110ASTR660_CompAstro/blob/main/homeworks/HW2/ex4/1-x2.png" alt="drawing" width="50%"/>
+<img src="https://github.com/CFP106020008/11110ASTR660_CompAstro/blob/main/homeworks/HW2/ex4/2-x2.png" alt="drawing" width="50%"/>
 ### Exercise 5 (omit)
 ### Exercise 6 (omit)
 
