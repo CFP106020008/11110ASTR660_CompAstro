@@ -14,7 +14,7 @@ def Method3(x,n):
 
 	
 N = 100
-x = 1.0
+x = 1.0                #change this value
 reale_x = np.exp(-x)
 
 cal1e_x = 0.0
