@@ -17,7 +17,7 @@ So if we instead use a well-behaved function, such as $\sqrt{2-x^2}$. You will g
 
 <img src="https://github.com/CFP106020008/11110ASTR660_CompAstro/blob/main/homeworks/HW2/ex4/1-x2.png" alt="drawing" width="49%"/><img src="https://github.com/CFP106020008/11110ASTR660_CompAstro/blob/main/homeworks/HW2/ex4/2-x2.png" alt="drawing" width="49%"/>
 ### Exercise 5 (omit)
-### Exercise 6 (omit)
+### Exercise 6 
 ![](https://github.com/CFP106020008/11110ASTR660_CompAstro/blob/main/homeworks/HW2/ex6/Derivative.png)
 FYI.
 
