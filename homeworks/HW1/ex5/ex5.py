@@ -50,7 +50,6 @@ for i in range(N+1):
 
 # Method 3
 for i in range(N+1):
-	#cal3e_x += ((x**i)/factorial(i))
 	cal3e_x += Method3(x,i)
 	x3[i] = i
 	ex3[i] = 1./cal3e_x
