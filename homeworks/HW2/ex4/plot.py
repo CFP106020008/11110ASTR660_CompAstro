@@ -29,7 +29,7 @@ def err3(n):
     return err
 
 err_scipy = list(map(err3, N.astype(int) ))
-plt.loglog(N, err_scipy, color='skyblue')
+#plt.loglog(N, err_scipy, color='skyblue')
 
 plt.xlabel('N')
 plt.ylabel('Error')
