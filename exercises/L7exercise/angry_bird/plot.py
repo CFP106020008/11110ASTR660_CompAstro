@@ -24,4 +24,5 @@ plt.ylabel('y (m)')
 plt.legend()
 plt.tight_layout()
 
-plt.show()
+#plt.show()
+plt.savefig('L7Exercise.png', dpi=300)
