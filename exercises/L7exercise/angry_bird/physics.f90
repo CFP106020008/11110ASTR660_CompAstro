@@ -25,9 +25,9 @@ module physics
             yin(4) = vy0
             
             ! Here you can choose the solver you want
-            call euler(4,yin,ynext,time,dt, my_func)
+            !call euler(4,yin,ynext,time,dt, my_func)
             !call rk2(4,yin,ynext,time,dt, my_func)
-            !call rk4(4,yin,ynext,time,dt, my_func)
+            call rk4(4,yin,ynext,time,dt, my_func)
 
             ! unpack ynext
             x  = ynext(1)

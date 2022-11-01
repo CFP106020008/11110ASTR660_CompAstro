@@ -36,7 +36,7 @@ module Solver
         call func(n, t, yin, k1)
 
         ! compute y2 = yin + h*k1
-        y2 = yin + 0.5*h*k1
+        y2 = yin + h*k1
 
         ! compute k2 = func(t+h, y2)
         call func(n, t, y2, k2)
@@ -61,11 +61,11 @@ module Solver
         
         call func(n, t, yin, k1)
         y2 = yin + 0.5*h*k1
-        call func(n, t, yin, k2)
+        call func(n, t+0.5*h, yin, k2)
         y3 = yin + 0.5*h*k2
-        call func(n, t, y3, k3)
+        call func(n, t+0.5*h, y3, k3)
         y4 = yin + h*k3
-        call func(n, t, y4, k4)
+        call func(n, t+h, y4, k4)
         ynext = yin + h*(k1 + 2.*k2 + 2.*k3 + k4)/6.
     
     end subroutine rk4

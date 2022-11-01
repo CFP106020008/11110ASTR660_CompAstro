@@ -21,6 +21,7 @@ plt.xlim([0,100])
 plt.ylim([0,60])
 plt.xlabel('x (m)')
 plt.ylabel('y (m)')
+plt.title('$dt = 1$')
 plt.legend()
 plt.tight_layout()
 
