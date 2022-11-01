@@ -61,7 +61,7 @@ module Solver
         
         call func(n, t, yin, k1)
         y2 = yin + 0.5*h*k1
-        call func(n, t+0.5*h, yin, k2)
+        call func(n, t+0.5*h, y2, k2)
         y3 = yin + 0.5*h*k2
         call func(n, t+0.5*h, y3, k3)
         y4 = yin + h*k3

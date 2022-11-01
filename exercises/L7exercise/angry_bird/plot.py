@@ -15,7 +15,7 @@ v = 30
 theta = 60
 x = v*np.cos(theta*np.pi/180)*t
 y = v*np.sin(theta*np.pi/180)*t - 0.5*9.81*t**2
-plt.plot(x, y, label='Analytical Solution')
+plt.plot(x, y, label='Analytical Solution', linestyle='dashed')
 
 plt.xlim([0,100])
 plt.ylim([0,60])
