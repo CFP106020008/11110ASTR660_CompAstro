@@ -46,9 +46,9 @@ program shooting1
 
         t = 0.    
         do while(t .lt. tend)
-            if ((t+h) .ge. tend) then
-                h = tend - t
-            endif
+            !if ((t+h) .ge. tend) then
+            !    h = tend - t
+            !endif
             call rk2(n, y, ynext, t, h, my_func)
             y = ynext
             t = t + h
@@ -67,6 +67,7 @@ program shooting1
 
     print *, "y1(1) = ", ynext(1)
     print *, "The desired value is 1."
+    print *, "dydt(t=0) = ", try_y2
 
 end program shooting1
 
