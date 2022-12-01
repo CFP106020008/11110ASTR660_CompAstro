@@ -53,7 +53,7 @@ subroutine update(time, dt)
         !u(i) = uold(i) - dt*(cp*uxp+cm*uxm)
 
         ! FTCS
-        u(i) = uold(i) - c*dt/dx/2.*(uold(i+1) - u(i-1))
+        u(i) = uold(i) - c*dt/dx/2.*(uold(i+1) - uold(i-1))
 
     enddo
 
