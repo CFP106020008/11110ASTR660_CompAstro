@@ -33,14 +33,17 @@ LF = np.array(np.log10([ave_LF_50,ave_LF_500,ave_LF_5000]))
 LW = np.array(np.log10([ave_LW_50,ave_LW_500,ave_LW_5000]))
 N = np.log10(np.array([N50,N500,N5000]))
 
+# dt = abs(dx/c)*CFL=abs(1/N)*0.4, c=1, CFL=0.4, N=50,500,5000
+# N increases -> dt dexreases -> error decreases
+# error is proportional to dt and inversely proportional to N
 x = np.log10(np.arange(50.,5000.,1.))
 y1 = -1.*(x-N[0])+LF[0]
 y2 = -2.*(x-N[0])+LW[0]
 
 plt.plot(N,LF,'-o',label="LF")
 plt.plot(N,LW,'-o',label="LW")
-plt.plot(x,y1,'k--',label="1/x")
-plt.plot(x,y2,color='gray',linestyle='dashed',label="1/x^2")
+plt.plot(x,y1,'k--',label=r"$dt(N^{-1})$")
+plt.plot(x,y2,color='gray',linestyle='dashed',label=r"${dt}^2(N^{-2})$")
 plt.legend()
 plt.xlabel("log(N)")
 plt.ylabel("log(error)")
